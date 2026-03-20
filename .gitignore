@@ -1,0 +1,4 @@
+includes/db.php
+*.log
+outputs/*
+
