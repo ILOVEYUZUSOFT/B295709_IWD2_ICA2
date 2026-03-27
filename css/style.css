@@ -1,20 +1,84 @@
-body { 
-    font-family: Arial, sans-serif; 
-    margin: 40px; 
-    background: #f4f4f4; 
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
     color: #333;
 }
-table { 
-    border-collapse: collapse; 
-    width: 100%; 
+
+.results-card, .analysis-card, .alignment-card, .motif-card, .extra-card, .revisit-card {
+    max-width: 1100px;
+    margin: 10px auto;
+    border-radius: 28px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.card-header-custom {
+    background: linear-gradient(90deg, #0f3460, #1e5799);
+    color: white;
+    padding: 22px 30px;
+}
+
+.card-body {
+    padding: 36px 40px !important;
+}
+
+.seq-pill {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #f8f9fa;
+    color: #0f3460;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 0.95rem;
+}
+
+.btn-action {
+    padding: 12px 24px;
+    font-size: 1.05rem;
+}
+
+.btn-back {
+    color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+.btn-back:hover {
+    background-color: white;
+    color: #0f3460;
+}
+
+.plot-container, .report-pre {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+}
+
+.table,
+table {
+    border-collapse: collapse;
+    width: 100%;
     margin-top: 20px;
 }
-th, td { 
-    border: 1px solid #ccc; 
-    padding: 10px; 
-    text-align: left; 
+
+.table th,
+.table td,
+th,
+td {
+    border: 1px solid #ccc !important;
+    padding: 12px 15px !important;
+    text-align: left;
+    vertical-align: middle;
 }
-th { 
-    background: #4CAF50; 
-    color: white; 
+
+.table thead th,
+th {
+    background: #0f3460 !important;   /* 改成你喜欢的深蓝色 */
+    color: white !important;
+    font-weight: bold;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f3f8 !important;
 }

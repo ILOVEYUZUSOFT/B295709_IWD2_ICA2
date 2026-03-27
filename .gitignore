@@ -1,4 +1,6 @@
 includes/db.php
+includes/db.php.save
 *.log
 outputs/*
-
+scripts/fetch_sequences.py
+css/*
