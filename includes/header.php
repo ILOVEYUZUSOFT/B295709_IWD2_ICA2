@@ -100,7 +100,7 @@
     <div class="container">
         <h1 style="color:#1e3a8a; margin-top:20px;">Protein Conservation Explorer</h1>
         
-        <!-- µ¼º½À¸ -->
+
         <nav style="background:#0f3460; padding:18px 30px; border-radius:8px; margin-bottom:25px;">
             <a href="index.php" style="color:#fff; margin-right:22px; text-decoration:none; font-weight:bold;">Home</a>
             <a href="example.php" style="color:#fff; margin-right:22px; text-decoration:none; font-weight:bold;">Example Dataset</a>
